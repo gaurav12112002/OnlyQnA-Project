@@ -1,0 +1,40 @@
+.widget {
+  margin-top: 82px;
+  flex: 0.4;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 75px;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+
+  border-radius: 10px;
+  height: fit-content;
+  background-color: white;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.widget__header {
+  border-bottom: 1px solid black;
+  height: 60px;
+}
+
+.widget__header>h5 {
+  padding: 10px;
+  color: black;
+  margin-top: 8px;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 1.1px;
+  align-self: center;
+}
+
+.widget__contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
